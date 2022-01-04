@@ -19,3 +19,5 @@ For more details, please refer to the code notes and our paper.<br>
 `./blender -b background.blend -P dataset_create.py`
 ## Result
 The dataset we produced includes two resolutions, 960 \* 720 and 480 \* 360 respectively. Each resolution renders a total of 3000 scenes for training and 300 scenes for testing, each of them contains 5 blurred RGB images, which have different focal planes and camera deviations, and corresponding 5 defocus maps, 5 depth maps, 5 masks of objects, 5 all-in-focus images (taken without using DOF), and camera matrix of each camera pose.<br>
+* Example scene:<br>
+	* focal stack defocus images:
