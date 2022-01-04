@@ -30,3 +30,5 @@ Example scene:<br>
 ![](https://github.com/PeimingCHEN/Multi-focus-Misaligned-Cultural-Heritage-Photography-Dataset/blob/8e32385ca817907460170aaf3a5216aeb01486e2/figures/depth_map.png)
 * Corresponding mask of object:<br>
 ![](https://github.com/PeimingCHEN/Multi-focus-Misaligned-Cultural-Heritage-Photography-Dataset/blob/7e6aa6f915bf5ba6ad90c3ddf6f928412e0a2658/figures/mask.png)
+
+Note: For saving time, we use the Cycle rendering engine and turn on hardware accelerated raytracing NVIDIA Optix for rendering. Please set it according to your running device.
