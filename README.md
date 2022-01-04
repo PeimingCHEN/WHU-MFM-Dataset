@@ -11,7 +11,7 @@ for example, in Linux system, you can use<br>
 	* a) Object meshes<br>
 	* b) Background meshes<br>
 	* c) Environment lighting<br>
-	* d) We have collected 1000 cultural heritage meshes from Sketchfab (https://www.sketchfab.com/) and kept them in /mesh folder. Besides, background.blend is a Blender file which contains 5 diverse photographic backgrounds and 5 different professional photography lights. If you want to download other meshes from sketchfab, you can download them in .gltf format, and use unpack.py and pre-process.py scripts provided by us for batch decompression and preprocessing to adjust the models’ location and size.<br>
+	* d) We have collected 1000 cultural heritage meshes from Sketchfab (https://www.sketchfab.com/) and kept them in `mesh.zip`. Besides, `background.blend` is a Blender file which contains 5 diverse photographic backgrounds and 5 different professional photography lights. If you want to download other meshes from sketchfab, you can download them in `.gltf` format, and use `unpack.py` and `pre-process.py` scripts provided by us for batch decompression and preprocessing to adjust the models’ location and size.<br>
 *	Step 2: Set dataset related parameters in dataset_create.py:<br>
 At the bottom of dataset_create.py, you can set relevant parameters as needed, including the number of meshes, the number of rendered scenes, the number of focus stacks in a scene, virtual camera parameters, result output path, etc.<br>
 For more details, please refer to the code notes and our paper.<br>
