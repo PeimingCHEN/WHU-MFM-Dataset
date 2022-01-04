@@ -19,5 +19,14 @@ For more details, please refer to the code notes and our paper.<br>
 `./blender -b background.blend -P dataset_create.py`
 ## Result
 The dataset we produced includes two resolutions, 960 \* 720 and 480 \* 360 respectively. Each resolution renders a total of 3000 scenes for training and 300 scenes for testing, each of them contains 5 blurred RGB images, which have different focal planes and camera deviations, and corresponding 5 defocus maps, 5 depth maps, 5 masks of objects, 5 all-in-focus images (taken without using DOF), and camera matrix of each camera pose.<br>
-* Example scene:<br>
-	* focal stack defocus images:
+Example scene:<br>
+* Focal stack defocus images:<br>
+![](https://github.com/PeimingCHEN/Multi-focus-Misaligned-Cultural-Heritage-Photography-Dataset/blob/1652681d4c9a31a8eacdd34b7027f38b86a939af/figures/defocus_image.png)
+* Corresponding all-in-focus images:<br>
+![](https://github.com/PeimingCHEN/Multi-focus-Misaligned-Cultural-Heritage-Photography-Dataset/blob/ed8dedd19f313c34161d21b7342be8152e22b809/figures/aif.png)
+* Corresponding Defocus map:<br>
+![](https://github.com/PeimingCHEN/Multi-focus-Misaligned-Cultural-Heritage-Photography-Dataset/blob/fe1cb7259dd4771a807a354a4cbc57a32a40e585/figures/defocus_map.png)
+* Corresponding Depth map:<br>
+![](https://github.com/PeimingCHEN/Multi-focus-Misaligned-Cultural-Heritage-Photography-Dataset/blob/8e32385ca817907460170aaf3a5216aeb01486e2/figures/depth_map.png)
+* Corresponding mask of object:<br>
+![](https://github.com/PeimingCHEN/Multi-focus-Misaligned-Cultural-Heritage-Photography-Dataset/blob/7e6aa6f915bf5ba6ad90c3ddf6f928412e0a2658/figures/mask.png)
