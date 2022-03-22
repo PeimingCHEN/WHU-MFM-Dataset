@@ -1,4 +1,4 @@
-# Multi-focus-Misaligned-Cultural-Heritage-Photography-Dataset
+# WHU-MFM
 This script is a Python Blender script for generating a multi-focus and misaligned image dataset, which contains scenes’ depth and defocus maps, objects’ masks, camera parameters, and blur and all-in-focus images.
 ## Prerequisites
 Blender 2.93 or above, downloadable at "https://www.blender.org/".<br>
