@@ -1,11 +1,11 @@
 # WHU-MFM Dataset
 This script is a Python Blender script for generating a multi-focus and misaligned image dataset, which contains scenes' depth and defocus maps, objects' masks, camera parameters, and blur and all-in-focus images.
 ## Installation
-Blender 2.93 or above, downloadable at "https://www.blender.org/".<br>
-Download the repository:<br>
-`git clone https://github.com/PeimingCHEN/WHU-MFM-Dataset`<br>
-Install the dependencies in Blender's Python environment:<br>
-`pip install -r requirements.txt`<br>
+* Blender 2.93 or above, downloadable at "https://www.blender.org/".<br>
+* Download the repository:<br>
+	`git clone https://github.com/PeimingCHEN/WHU-MFM-Dataset`<br>
+* Install the dependencies in Blender's Python environment:<br>
+	`pip install -r requirements.txt`<br>
 for example, in Linux system, you can use<br>
 `cd blender-2.93.1-linux-x64/2.93/python/bin $ ./python3.9 -m pip install -r requirements.txt`
 ## Getting Started
