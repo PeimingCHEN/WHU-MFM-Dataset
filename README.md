@@ -5,9 +5,9 @@ This script is a Python Blender script for generating a multi-focus and misalign
 * Download the repository:<br>
 	`git clone https://github.com/PeimingCHEN/WHU-MFM-Dataset`<br>
 * Install the dependencies in Blender's Python environment:<br>
-	`pip install -r requirements.txt`<br>
+	`pip install -r requirement.txt`<br>
 for example, in Linux system, you can use<br>
-`cd blender-2.93.1-linux-x64/2.93/python/bin $ ./python3.9 -m pip install -r requirements.txt`
+`cd blender-2.93.1-linux-x64/2.93/python/bin $ ./python3.9 -m pip install -r requirement.txt`
 ## Getting Started
 * Step 1: We need a few assets to start the rendering. 1000 cultural heritage meshes have been collected from Sketchfab (https://www.sketchfab.com/) and kept them in `mesh.zip`. Besides, `background.blend` is a Blender file which contains 5 diverse photographic backgrounds and 5 different professional photography lights. If you want to download other meshes from Sketchfab, you can download them in `.gltf` format, and use `unpack.py` and `pre-process.py` scripts provided by us for batch decompression and preprocessing to adjust the models' location and size.<br>
 	* a) Object meshes.<br>
