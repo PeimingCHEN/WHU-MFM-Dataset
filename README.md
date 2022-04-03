@@ -9,13 +9,13 @@ for example, in Linux system, you can use<br>
 ## Getting Started
 * Step 1: We need a few assets to start the rendering. 1000 cultural heritage meshes have been collected from Sketchfab (https://www.sketchfab.com/) and kept them in `mesh.zip`. Besides, `background.blend` is a Blender file which contains 5 diverse photographic backgrounds and 5 different professional photography lights. If you want to download other meshes from Sketchfab, you can download them in `.gltf` format, and use `unpack.py` and `pre-process.py` scripts provided by us for batch decompression and preprocessing to adjust the models' location and size.<br>
 	* a) Object meshes.<br>
-	![](https://github.com/PeimingCHEN/WHU-MFM-Dataset/blob/main/figures/objects.png) 
+	<img src="https://github.com/PeimingCHEN/WHU-MFM-Dataset/blob/main/figures/objects.png" width="598" height="360"/><br/>
 	* b) Background meshes.<br>
-	![](https://github.com/PeimingCHEN/WHU-MFM-Dataset/blob/main/figures/background.png) 
+	<img src="https://github.com/PeimingCHEN/WHU-MFM-Dataset/blob/main/figures/background.png" width="640" height="127"/><br/>
 	* c) Environment lighting.<br>
-	![](https://github.com/PeimingCHEN/WHU-MFM-Dataset/blob/main/figures/lighting.png) 
+	<img src="https://github.com/PeimingCHEN/WHU-MFM-Dataset/blob/main/figures/lighting.png" width="540" height="360"/><br/>
 	* d) Camera positions.<br>
-	![](https://github.com/PeimingCHEN/WHU-MFM-Dataset/blob/main/figures/camera.png) 
+	<img src="https://github.com/PeimingCHEN/WHU-MFM-Dataset/blob/main/figures/camera.png" width="350" height="347"/><br/>
 
 * Step 2: Set dataset related parameters in dataset_create.py.<br>
 At the bottom of dataset_create.py, you can set relevant parameters as needed, including the number of meshes, the number of rendered scenes, the number of focus stacks in a scene, virtual camera parameters, result output path, etc.<br>
