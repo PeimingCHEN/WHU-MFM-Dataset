@@ -3,7 +3,7 @@ This script is a Python Blender script for generating a multi-focus and misalign
 ## Installation
 Blender 2.93 or above, downloadable at "https://www.blender.org/".<br>
 Download the repository:<br>
-`git clone https://github.com/PeimingCHEN/WHU-MFM-Dataset`
+`git clone https://github.com/PeimingCHEN/WHU-MFM-Dataset`<br>
 Install the dependencies in Blender's Python environment:<br>
 `pip install -r requirements.txt`<br>
 for example, in Linux system, you can use<br>
