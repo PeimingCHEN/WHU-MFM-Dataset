@@ -16,7 +16,8 @@ for example, in Linux system, you can use<br>
 	![](https://github.com/PeimingCHEN/WHU-MFM-Dataset/blob/main/figures/lighting.png) 
 	* d) Camera positions.<br>
 	![](https://github.com/PeimingCHEN/WHU-MFM-Dataset/blob/main/figures/camera.png) 
-*	Step 2: Set dataset related parameters in dataset_create.py.<br>
+
+* Step 2: Set dataset related parameters in dataset_create.py.<br>
 At the bottom of dataset_create.py, you can set relevant parameters as needed, including the number of meshes, the number of rendered scenes, the number of focus stacks in a scene, virtual camera parameters, result output path, etc.<br>
 For more details, please refer to the code notes and our paper.<br>
 * Step 3: Run the rendering code.<br>
