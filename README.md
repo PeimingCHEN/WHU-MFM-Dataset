@@ -1,5 +1,7 @@
 # WHU-MFM Dataset
 This script is a Python Blender script for generating a multi-focus and misaligned image dataset, which contains scenes' depth and defocus maps, objects' masks, camera parameters, and blur and all-in-focus images.
+
+Two datasets with different resolutions, 960 \* 720 and 480 \* 360, are available for download from \[ [Baidu Yun](https://pan.baidu.com/s/1KGHId-8mZB9PW2skyD0-PA?pwd=axke): axke\]. The 960 \* 720 version is divided into three separate ZIP files. You can download the corresponding version according to the name of the compressed package.
 ## Installation
 * Blender 2.93 or above, downloadable [here](https://www.blender.org/).<br>
 * Download the repository:<br>
@@ -25,7 +27,7 @@ For more details, please refer to the code notes and our paper.<br>
 * Step 3: Run the rendering code.<br>
 `./blender -b background.blend -P dataset_create.py`
 ## Result
-The dataset we produced includes two resolutions, 960 \* 720 and 480 \* 360 respectively. Each resolution renders a total of 3000 scenes for training and 300 scenes for testing, each of them contains 5 blurred RGB images, which have different focal planes and camera deviations, and corresponding 5 defocus maps, 5 depth maps, 5 masks of objects, 5 all-in-focus images (taken without using DOF), and camera matrix of each camera pose.<br>
+The dataset we produced includes two resolutions, 960 \* 720 and 480 \* 360 respectively. Each resolution renders a total of 3000 scenes for training and testing, each of them contains 5 blurred RGB images, which have different focal planes and camera deviations, and corresponding 5 defocus maps, 5 depth maps, 5 masks of objects, 5 all-in-focus images (taken without using DOF), and camera matrix of each camera pose.<br>
 Example scene:<br>
 * Focal stack defocus images.<br>
 ![](https://github.com/PeimingCHEN/WHU-MFM-Dataset/blob/main/figures/defocus_image.png)
